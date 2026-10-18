@@ -2,6 +2,8 @@
 
 Website voor autoverkoop. Gewone HTML, CSS en JavaScript: geen installatie of database nodig.
 
+**[Live demo →](https://Roemang.github.io/jd-occasions/)** — klik op _Voorbeelddata laden_ om het met gevulde data te zien.
+
 ## Bestanden
 
 | Bestand | Wat het is |
