@@ -1,0 +1,18 @@
+{
+  "name": "jd-occasions",
+  "version": "1.0.0",
+  "description": "Website en beheeromgeving voor JD Occasions",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node --no-warnings server.js",
+    "dev": "node --no-warnings --watch server.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "multer": "^2.0.2"
+  }
+}

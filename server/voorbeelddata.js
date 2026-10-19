@@ -1,0 +1,281 @@
+// Gegevens waarmee de database de eerste keer gevuld wordt.
+// Daarna beheer je alles via de beheerpagina (/admin).
+
+module.exports = {
+  instellingen: {
+    "naam": "JD Occasions",
+    "slogan": "Kwaliteit occasions met een eerlijk verhaal",
+    "telefoon": "06 12 34 56 78",
+    "whatsapp": "31612345678",
+    "email": "info@jdoccasions.nl",
+    "adres": "Voorbeeldstraat 1",
+    "postcode": "1234 AB",
+    "plaats": "Lelystad",
+    "kvk": "12345678",
+    "openingstijden": [
+      [
+        "Maandag",
+        "Gesloten"
+      ],
+      [
+        "Dinsdag – vrijdag",
+        "10:00 – 18:00"
+      ],
+      [
+        "Zaterdag",
+        "10:00 – 17:00"
+      ],
+      [
+        "Zondag",
+        "Op afspraak"
+      ]
+    ]
+  },
+  autos: [
+    {
+      "merk": "Volkswagen",
+      "model": "Golf",
+      "uitvoering": "1.5 TSI Style",
+      "prijs": 24950,
+      "bouwjaar": 2021,
+      "km": 48200,
+      "brandstof": "Benzine",
+      "transmissie": "Automaat",
+      "vermogen": 150,
+      "kleur": "Grijs metallic",
+      "carrosserie": "Hatchback",
+      "deuren": 5,
+      "zitplaatsen": 5,
+      "btw": "Marge",
+      "status": "beschikbaar",
+      "uitgelicht": true,
+      "fotos": [],
+      "opties": [
+        "Adaptieve cruise control",
+        "Navigatie",
+        "Apple CarPlay / Android Auto",
+        "LED-koplampen",
+        "Stoelverwarming",
+        "Parkeersensoren voor en achter",
+        "Climate control"
+      ],
+      "omschrijving": "Nette Golf met volledige onderhoudshistorie bij de dealer. Eerste eigenaar, rookvrij en altijd binnen gestald. Wordt afgeleverd met nieuwe APK en een grote beurt."
+    },
+    {
+      "merk": "BMW",
+      "model": "3 Serie",
+      "uitvoering": "320i M Sport",
+      "prijs": 34950,
+      "bouwjaar": 2020,
+      "km": 61500,
+      "brandstof": "Benzine",
+      "transmissie": "Automaat",
+      "vermogen": 184,
+      "kleur": "Zwart metallic",
+      "carrosserie": "Sedan",
+      "deuren": 4,
+      "zitplaatsen": 5,
+      "btw": "Marge",
+      "status": "beschikbaar",
+      "uitgelicht": true,
+      "fotos": [],
+      "opties": [
+        "M Sportpakket",
+        "Live Cockpit Professional",
+        "Head-up display",
+        "Leder interieur",
+        "Elektrisch verstelbare stoelen",
+        "Achteruitrijcamera",
+        "18 inch lichtmetalen velgen"
+      ],
+      "omschrijving": "Sportieve en luxe 3 Serie in M Sport-uitvoering. Dealeronderhouden, NAP-logisch en in uitstekende staat."
+    },
+    {
+      "merk": "Audi",
+      "model": "A4 Avant",
+      "uitvoering": "35 TFSI S-Line",
+      "prijs": 31450,
+      "bouwjaar": 2021,
+      "km": 55900,
+      "brandstof": "Benzine",
+      "transmissie": "Automaat",
+      "vermogen": 150,
+      "kleur": "Wit",
+      "carrosserie": "Stationwagen",
+      "deuren": 5,
+      "zitplaatsen": 5,
+      "btw": "BTW",
+      "status": "beschikbaar",
+      "uitgelicht": true,
+      "fotos": [],
+      "opties": [
+        "S-Line exterieur",
+        "Virtual Cockpit",
+        "Elektrische achterklep",
+        "Trekhaak",
+        "Sportstoelen",
+        "Navigatie Plus"
+      ],
+      "omschrijving": "Ruime en stijlvolle A4 Avant, ideaal voor gezin of zakelijk gebruik. Prijs is inclusief BTW."
+    },
+    {
+      "merk": "Mercedes-Benz",
+      "model": "A-Klasse",
+      "uitvoering": "A180 AMG Line",
+      "prijs": 27950,
+      "bouwjaar": 2020,
+      "km": 42300,
+      "brandstof": "Benzine",
+      "transmissie": "Automaat",
+      "vermogen": 136,
+      "kleur": "Rood metallic",
+      "carrosserie": "Hatchback",
+      "deuren": 5,
+      "zitplaatsen": 5,
+      "btw": "Marge",
+      "status": "gereserveerd",
+      "uitgelicht": true,
+      "fotos": [],
+      "opties": [
+        "AMG Line",
+        "MBUX met widescreen",
+        "Sfeerverlichting",
+        "Panoramadak",
+        "Keyless Go"
+      ],
+      "omschrijving": "Opvallende A-Klasse in AMG Line-uitvoering met panoramadak en sfeerverlichting."
+    },
+    {
+      "merk": "Toyota",
+      "model": "Yaris",
+      "uitvoering": "1.5 Hybrid Dynamic",
+      "prijs": 18950,
+      "bouwjaar": 2021,
+      "km": 38700,
+      "brandstof": "Hybride",
+      "transmissie": "Automaat",
+      "vermogen": 116,
+      "kleur": "Blauw",
+      "carrosserie": "Hatchback",
+      "deuren": 5,
+      "zitplaatsen": 5,
+      "btw": "Marge",
+      "status": "beschikbaar",
+      "uitgelicht": false,
+      "fotos": [],
+      "opties": [
+        "Adaptieve cruise control",
+        "Achteruitrijcamera",
+        "Apple CarPlay / Android Auto",
+        "Climate control"
+      ],
+      "omschrijving": "Zuinige en betrouwbare Yaris Hybrid. Perfecte stadsauto met lage verbruikskosten."
+    },
+    {
+      "merk": "Kia",
+      "model": "Niro",
+      "uitvoering": "e-Niro 64 kWh DynamicLine",
+      "prijs": 22950,
+      "bouwjaar": 2020,
+      "km": 72400,
+      "brandstof": "Elektrisch",
+      "transmissie": "Automaat",
+      "vermogen": 204,
+      "kleur": "Wit parelmoer",
+      "carrosserie": "SUV",
+      "deuren": 5,
+      "zitplaatsen": 5,
+      "btw": "Marge",
+      "status": "beschikbaar",
+      "uitgelicht": true,
+      "fotos": [],
+      "opties": [
+        "Actieradius ca. 455 km",
+        "Snelladen",
+        "Warmtepomp",
+        "Navigatie",
+        "Adaptieve cruise control"
+      ],
+      "omschrijving": "Volledig elektrische e-Niro met grote accu en warmtepomp. Kia-fabrieksgarantie tot 2027."
+    },
+    {
+      "merk": "Volvo",
+      "model": "XC60",
+      "uitvoering": "T5 Momentum",
+      "prijs": 29950,
+      "bouwjaar": 2018,
+      "km": 98600,
+      "brandstof": "Benzine",
+      "transmissie": "Automaat",
+      "vermogen": 250,
+      "kleur": "Zilver metallic",
+      "carrosserie": "SUV",
+      "deuren": 5,
+      "zitplaatsen": 5,
+      "btw": "Marge",
+      "status": "beschikbaar",
+      "uitgelicht": false,
+      "fotos": [],
+      "opties": [
+        "Pilot Assist",
+        "Leder",
+        "Stoelverwarming voor en achter",
+        "Elektrische achterklep",
+        "Trekhaak"
+      ],
+      "omschrijving": "Comfortabele en veilige XC60 met volledige Volvo-historie."
+    },
+    {
+      "merk": "Peugeot",
+      "model": "208",
+      "uitvoering": "1.2 PureTech Allure",
+      "prijs": 16450,
+      "bouwjaar": 2020,
+      "km": 51200,
+      "brandstof": "Benzine",
+      "transmissie": "Handgeschakeld",
+      "vermogen": 100,
+      "kleur": "Geel",
+      "carrosserie": "Hatchback",
+      "deuren": 5,
+      "zitplaatsen": 5,
+      "btw": "Marge",
+      "status": "beschikbaar",
+      "uitgelicht": false,
+      "fotos": [],
+      "opties": [
+        "3D i-Cockpit",
+        "Navigatie",
+        "Parkeersensoren achter",
+        "LED-verlichting"
+      ],
+      "omschrijving": "Moderne en zuinige 208 met het kenmerkende 3D i-Cockpit."
+    },
+    {
+      "merk": "Ford",
+      "model": "Focus",
+      "uitvoering": "1.0 EcoBoost ST-Line",
+      "prijs": 15950,
+      "bouwjaar": 2019,
+      "km": 84100,
+      "brandstof": "Benzine",
+      "transmissie": "Handgeschakeld",
+      "vermogen": 125,
+      "kleur": "Blauw metallic",
+      "carrosserie": "Hatchback",
+      "deuren": 5,
+      "zitplaatsen": 5,
+      "btw": "Marge",
+      "status": "verkocht",
+      "uitgelicht": false,
+      "fotos": [],
+      "opties": [
+        "ST-Line pakket",
+        "Navigatie",
+        "Cruise control",
+        "Climate control"
+      ],
+      "omschrijving": "Sportieve Focus ST-Line. Deze auto is helaas verkocht."
+    }
+  ],
+};
